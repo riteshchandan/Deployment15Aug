@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     #return "hello world"
-    return render_template('landing.html')
+    #return render_template('landing.html')
+    return render_template('diabetes.html')
 
 @app.route('/contact')
 def contact():
